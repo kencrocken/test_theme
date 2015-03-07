@@ -830,7 +830,8 @@ html, body, .container, .header {
   bottom: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: url("https://ununsplash.imgix.net/uploads/14132599381062b4d4ede/3b6f33f2?q=75&fm=jpg&s=ada04fb565c23d9c0a3c17c4ca55213d") no-repeat center center;
+  background: url("https://ununsplash.imgix.net/uploads/14114036359651bd991f1/b3ed8fdf?q=75&fm=jpg&s=70117f43f85b1b03d8371a6a880fc1ba") no-repeat center bottom;
+  background-size: cover;
 }
 
 .title {
@@ -1128,8 +1129,8 @@ button.trigger span::before {
 
 .intro-effect-fadeout.modify .codrops-top {
   background-color: rgba(255, 255, 255, 0);
-  background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 53.33333%);
-  background-image: linear-gradient(to top,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 53.33333%);
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
+  background-image: linear-gradient(to top,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
 }
 
 .intro-effect-fadeout .header p {
