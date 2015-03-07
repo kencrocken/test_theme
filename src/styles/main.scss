@@ -248,6 +248,20 @@ html, body, .container, .header {
   h1, p.subline {
     line-height: 1;
   }
+  @include media(max-width 480px) {
+    h1 {
+      font-size: 2.25em;
+    }
+    p {
+      font-size: 0.65em;
+    }
+    p.subline {
+      font-size: 1em;
+    }
+    .title-tag {
+      margin-left: 0;
+    }
+  }
 }
 
 /* Trigger Button */
@@ -338,15 +352,36 @@ button.trigger span::before {
 
 .content > div:not(.title) p {
   margin: 0 auto 1.5em auto;
+  @include media(max-width 480px) {
+    font-size: .8em;
+  }
 }
 
 .content > div:not(.title) p:first-child {
   font-size: 1.35em;
+  @include media(max-width 480px) {
+    font-size: 1em;
+  }
 }
 
 .content h3 {
   margin: 0;
   font-size: 1.4em;
+  padding-bottom: 3px;
+  font-weight: 400;
+    @include media(max-width 480px) {
+    font-size: 1.05em;
+  }
+}
+
+.content h4 {
+  margin: 0;
+  font-size: 1.4em;
+  padding-bottom: 3px;
+  font-weight: 400;
+    @include media(max-width 480px) {
+    font-size: 0.9em;
+  }
 }
 
 .content blockquote {

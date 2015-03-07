@@ -870,6 +870,20 @@ html, body, .container, .header {
 .title h1, .title p.subline {
   line-height: 1;
 }
+@media screen and (max-width: 480px) {
+  .title h1 {
+    font-size: 2.25em;
+  }
+  .title p {
+    font-size: 0.65em;
+  }
+  .title p.subline {
+    font-size: 1em;
+  }
+  .title .title-tag {
+    margin-left: 0;
+  }
+}
 
 /* Trigger Button */
 button.trigger {
@@ -959,14 +973,43 @@ button.trigger span::before {
 .content > div:not(.title) p {
   margin: 0 auto 1.5em auto;
 }
+@media screen and (max-width: 480px) {
+  .content > div:not(.title) p {
+    font-size: .8em;
+  }
+}
 
 .content > div:not(.title) p:first-child {
   font-size: 1.35em;
+}
+@media screen and (max-width: 480px) {
+  .content > div:not(.title) p:first-child {
+    font-size: 1em;
+  }
 }
 
 .content h3 {
   margin: 0;
   font-size: 1.4em;
+  padding-bottom: 3px;
+  font-weight: 400;
+}
+@media screen and (max-width: 480px) {
+  .content h3 {
+    font-size: 1.05em;
+  }
+}
+
+.content h4 {
+  margin: 0;
+  font-size: 1.4em;
+  padding-bottom: 3px;
+  font-weight: 400;
+}
+@media screen and (max-width: 480px) {
+  .content h4 {
+    font-size: 0.9em;
+  }
 }
 
 .content blockquote {
