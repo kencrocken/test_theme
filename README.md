@@ -1,0 +1,1 @@
+###Static template which will end up as a WordPress theme.
