@@ -880,6 +880,9 @@ html, body, .container, .header {
   .title p.subline {
     font-size: 1em;
   }
+  .title .title-tag {
+    margin-left: 0;
+  }
 }
 
 /* Trigger Button */
